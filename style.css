@@ -12,6 +12,7 @@ h2{
 body {
   line-height: 1.5;
   font-size: 15px;
+  font-family: 'Segoe UI';
 }
 
 header {
@@ -28,10 +29,11 @@ header {
   color: white;
   width: 50%;
   text-align: center;
-  align-content: center;
+  align-content: center; 
   line-height: 1;
   font-family: Zen Dots;
   font-weight: 600;
+   
 }
 .header-img {
   display: flex;
@@ -53,6 +55,51 @@ a {
   font-family: Zen Dots;
 }
 
+article{
+  display: flex;
+  padding: 20px;
+}
+#cr7-article{
+  max-width: 500px;
+}
+.article-img{
+  text-align: center;
+  width: 50%;
+  padding-right: 40px;
+  border-right: 1px solid black;
+}
+.article-texto{
+  width: 50%;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+  line-height: 2;
+}
+section{
+  background-color: rgb(107, 0, 0);
+  color: white;
+  align-content: center;
+  margin: 0 auto;
+ 
 
-
+}
+.times{
+  width: 180px;
+ 
+}
+.titulos{
+  margin: 0 auto; 
+  align-items: center;
+  
+}
+.titulos > tr , td{
+  padding: 20px;
+  font-size: 18px;
+ 
+}
+section > h1{
+  text-align: center;
+  padding: 20px 50px;
+  
+}
 
